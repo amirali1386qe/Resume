@@ -1,79 +1,215 @@
 /* CSS Document */
 
+
+
+/*
+==========================
+Global styles			||
+==========================
+*/
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Arial , sans-serif;
+}
+
+html , body{
+	height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	
 	
 }
 
+/*
+==========================
+header styles			||
+==========================
+*/
 
-body{
-	background-color: #e0f2f1 ;
+
+
+
+.header-container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #bcaaa4;
+	padding: 20px;
+	
+}
+
+.headerTag{
+	width: 90%;
+	max-width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction:row;
+	align-items: center;	
+	
+	
+}
+.headerTag h1{
+	margin: 0;
+	
+}
+
+.headerTag nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+
+.headerTag nav ul li {
+	margin: 0 15px;
+}
+
+
+.headerTag nav ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	transition: 1s ease;
+}
+
+
+.headerTag nav ul li a:hover{
+	text-decoration: underline;
+	color: #bf360c ;
+}
+
+
+
+
+
+/*
+==========================
+footer styles			||
+==========================
+*/
+
+
+
+footer{
+	background-color: #263238;
+	color: #fff;
+	text-align: center;
+	font-family: Arial , sans-serif ;
+	padding: 10px;
+	width: 100%;
+}
+
+.footer-container{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin: auto;
+	padding: 20px;
+	flex-direction: column;
+	min-height: 70vh;
+}
+
+.footer-section{
+	flex: 1;
+	min-width: 250;
+	margin: 10px;
+	
+}
+
+.footer-section h3 {
+	border-bottom: 2px solid #ffcc00;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.footer-section ul{
+	list-style: none;
+	padding: 0;
+}
+
+.footer-section ul li {
+	margin: 5px 0 ;
+}
+
+.footer-section ul li a {
+	color: #ffcc00;
+	text-decoration: none;
+}
+
+.footer-section ul li a:hover{
+	text-decoration: underline;
+}
+
+.footer-bottom{
+	background: #111;
+	padding: 10px 0 ;
+	margin-top: 20px;
+}
+
+
+
+/*
+==========================
+	main page		    ||
+==========================
+*/
+.main-page{
+	
+	background-color: #e8eaf6;
+	font-weight: 800;
+	height: 100%;
+	margin: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-	font-weight: bold;
-	font-size: 22px;
-}
-
-form{
-	margin-top: 250px;
 	
 	
 }
 
-input{
-	
-	width: 210px;
-	height: 38px;
+#Main{
+	margin: 50px;
+	display: flex;	
+	flex-direction: column;	
+	gap:10px;
+
+}
+
+
+input {
+	margin-bottom: 25px;
+	background-color: #d1c4e9;
+	padding: 10px ;
+	border: none;
 	border-radius: 5px;
-	margin-bottom: 20px;
+	
+	
 }
+
 
 label{
-	font-size: 25px;
-}
-
-button{
+	margin-right: 5px;
 	
-	
-	width: 75px;
-	height: 40px;
-	border-radius: 5px;
-	font-size: 16px;
-	font-weight: bold;
-	background-color: #b71c1c;
-	border: 1px solid #007BFF;
-	transition: 1s ease;
-	margin-left: 90px;
-	margin-top: 15px;
-}
-
-button:hover{
-	background-color: #ef9a9a;
-	
-}
-
-select{
-	width: 75px;
-	height: 40px;
-	align-items: center;
-	text-align: center;
-	
-}
+	{
+		
+	}
 
 
 
 
-			/*PHP Styles*/
 
 
-.result{
-	text-align: center;
-	
-}
+
+
+
+
+
+
+
 
 
 
