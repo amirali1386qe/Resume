@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	<form action="Calculator.php" method="post" name="form">
+	
+		<label> 
+			Num1 <input type="number" id="txtNum1" name="txtNum1">
+		</label><br><br>
+		<label> 
+			Num2 <input type="number" id="txtNum2" name="txtNum2">
+		</label>
+		<br>
+		<labe> operator:
+		<select name="operator" id="operator">
+			
+			<option value="Sum"> {+} </option>
+			<option value="minus" > {-} </option>
+			<option value="Mul"> {*} </option>
+			<option value="division">{/}</option>
+			</select>
+		</labe>
+		
+		<input type="button" id="btnSubmit" name="btnSubmit" value="Submit">
+		
+	
+	</form>
+	
+	
+	<script type="text/javascript" src="Scripts/script.js"></script>
+</body>
+</html>

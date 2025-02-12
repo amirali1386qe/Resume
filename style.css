@@ -1,0 +1,80 @@
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+
+body{
+	background-color: #e0f2f1 ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+form{
+	margin-top: 250px;
+	
+	
+}
+
+input{
+	
+	width: 210px;
+	height: 38px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+label{
+	font-size: 25px;
+}
+
+button{
+	
+	
+	width: 75px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #b71c1c;
+	border: 1px solid #007BFF;
+	transition: 1s ease;
+	margin-left: 90px;
+	margin-top: 15px;
+}
+
+button:hover{
+	background-color: #ef9a9a;
+	
+}
+
+select{
+	width: 75px;
+	height: 40px;
+	align-items: center;
+	text-align: center;
+	
+}
+
+
+
+
+			/*PHP Styles*/
+
+
+.result{
+	text-align: center;
+	
+}
+
+
+
+
